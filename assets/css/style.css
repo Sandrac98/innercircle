@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Stick+No+Bills:wght@800&display=swap');
-* {
+html {
     padding: 0;
     margin: 0;
     background-color: #e5d9fc;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+
 }
 
 /*---------------------------------------Colours*/
@@ -43,8 +44,8 @@ h2 {
     font-family: 'Comfortaa', cursive;
     font-size: 2em;
 }
-nav li{
-    padding: 0;
+nav ul a { 
+    left: 9000px;
    display: inline-block;
 }
 h3 {
@@ -60,17 +61,19 @@ p{
     font-size: 1.3em;
 }
 
-footer {
+footer li {
     text-align: center;
     list-style-type: none;
-    display: inline-block;
+    display: inline-table;
+    
 }
 /*--------------------------------------------image*/
 img{
-    min-height: 360px;
+   min-height: 450px;
     width: 100%;
     background-position: center;
     background-size: cover;
+    padding: 0;
 }
 /*---------------------------card content*/
 .grid-container {
