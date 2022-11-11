@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Stick+No+Bills:wght@800&display=swap');
-html {
+* {
     padding: 0;
     margin: 0;
+    border: 0;
     background-color: #e5d9fc;
     text-decoration: none;
     list-style: none;
@@ -10,11 +11,13 @@ html {
 }
 
 /*---------------------------------------Colours*/
-h1,
+.logo {
+    color:#5f31af;
+}
 h2 {
     color: #5f31af;
 }
-nav a {
+menu a {
     color: #6a028c;
 }
 
@@ -31,24 +34,38 @@ footer a {
 }
 
 /*--------------------------------headings*/
-h1{
-    text-align: left;
-    text-transform: uppercase;
-    font-family:'Stick No Bills', sans-serif; 
+#logo{
+    float: left;
     font-size: 2em;
+    font-family:'Stick No Bills', sans-serif;
+    text-transform: uppercase;
 }
 
 h2 {
     text-align: center;
-    font-weight: 600;
     font-family: 'Comfortaa', cursive;
-    font-size: 2em;
 }
-nav a { 
-  
-   display: inline-block;
-   list-style-type: none;
+#menu{
+    font-size: 1.5em;;
+    list-style-type: none;
+    letter-spacing: 4px;
+    padding-top: 12px;
 }
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+}
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #5f31af;
+}
+
 h3 {
     text-align: center;
     font-family: 'Comfortaa', sans-serif;
@@ -62,14 +79,28 @@ p{
     font-size: 1.3em;
 }
 
-footer li {
+footer{
+    height: 150px;
+}
+
+.social-network{
     text-align: center;
-    list-style-type: none;
-    display: inline-block;
+
+}
+
+.social-network li{
+    display: inline;
+}
+
+.social-network i{
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: #5f31af;
 }
 /*--------------------------------------------image*/
 img{
-   min-height: 450px;
+   min-height: 250px;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -80,4 +111,18 @@ img{
     display: grid;
     grid: auto / auto auto; 
     width: 100%;
+}
+
+/*--------------------------------------media queries*/
+@media (max-width: 952px) {
+    #menu {
+    font-size: 0.8em;
+    display: inline-block;
+    font-weight: 800;
+    }
+     .social-network i{
+        font-size: 90%;
+        font-weight: bold;
+}
+   
 }
