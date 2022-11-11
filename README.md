@@ -1,12 +1,8 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Welcome to Inner Circle, a place where k-pop fans can be themselves.
 
-Welcome Sandrac98,
+Inner Circle has been created to allow K-pop fans in United Kingdom to connect with people that share the same interest as them. The main objective for Inner Circle is to create a safe space for everyone who join us.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
+## Features
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 

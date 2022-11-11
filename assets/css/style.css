@@ -26,7 +26,7 @@ p {
     color: #0832a6;
 }
 
-footer li {
+footer a {
     color: #5f31af;
 }
 
@@ -44,9 +44,10 @@ h2 {
     font-family: 'Comfortaa', cursive;
     font-size: 2em;
 }
-nav ul a { 
-    left: 9000px;
+nav a { 
+  
    display: inline-block;
+   list-style-type: none;
 }
 h3 {
     text-align: center;
@@ -64,8 +65,7 @@ p{
 footer li {
     text-align: center;
     list-style-type: none;
-    display: inline-table;
-    
+    display: inline-block;
 }
 /*--------------------------------------------image*/
 img{
