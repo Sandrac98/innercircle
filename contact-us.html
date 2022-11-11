@@ -11,28 +11,33 @@
         <title>Inner Circle</title>
     </head>
     <header> 
-        <nav>
-         <h1>inner circle <i class="fa-regular fa-circle"></i></h1>
-         <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="about-us.html">about us</a></li>
-                <li><a href="contact-us.html">contact us</a></li>
-            </ul>
-        </nav>
+        <a href="index.html">
+            <h1 id="logo">inner circle <i class="fa-regular fa-circle"></i></h1>
+           </a>
+            <nav>
+            <ul id="menu">
+                    <li><a href="contact-us.html">contact us</a></li> 
+                   <li><a href="about-us.html">about us</a></li>
+                 <li><a href="index.html">home</a></li>
+               </ul>
+           </nav>
     </header>
     <body>
-    <form action="/form-submitted.html">
+        <section class="form-section">
+    <form action="/form-submitted.html" class="contact-form">
+        <h2>Have any question? Send us an email.<i class="fa fa-face-smile-wink"></i></h2>
     <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" required><br>
+    <input class="text-input"type="text" id="fname" name="fname" required><br>
     <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" required><br>
+    <input class="text-input" type="text" id="lname" name="lname" required><br>
     <label for="email">Enter your email:</label><br>
-    <input type="email" id="email" name="email" required><br>
+    <input class="text-input" type="email" id="email" name="email" required><br>
     <label for="message">Message</label><br>
-    <input type="text" id="message" name="message" required><br>
-    <input type="reset">
-    <input type="submit" value="Submit">
+    <textarea required>Write us here!</textarea><br>
+    <input type="reset" class="reset-button">
+    <input type="submit" value="Submit" class="submit-button" >
   </form>
+</section>
   <footer>
     <ul class="social-network">
      <li> <a target="_blank" href="https://www.facebook.com"> <span class="sr-only">Facebook</span> <i class="fa-brands fa-facebook"></i></li></a>
