@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     border: 0;
-    background-color: #e5d9fc;
+    background-color: #ebe6ff;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
@@ -109,16 +109,23 @@ footer{
     padding: 5%;
     color: #5f31af;
 }
-/*---------------------------card content*/
+/*----------------------------------------------------------------------------------------------card content*/
+.card-heading h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 3em;
+}
 .grid-container {
     display: grid;
     grid: auto / auto auto; 
     width: 100%;
+    margin-top: 2em;
 }
-/*-----------------------------------------------------------------form*/
+/*--------------------------------------------------------------------------------------------------form*/
 .form-section {
     clear: both;
-    background: url("../img/picture6.jpg");
+    background: url("../img/banner5.webp");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -173,11 +180,11 @@ textarea {
     display: inline-block;
 }
 
-/*--------------------------------------------------------image*/
+/*----------------------------------------------------------------------------------------------------------image*/
 #hero-image{
     height:500px;
     width: 100vw;
-    background: url("../img/banner5.jpg") no-repeat center center ;
+    background: url("../img/banner5.webp") no-repeat center center ;
 
     animation-name: hero-zoom;
     animation-duration: 2s;
@@ -202,15 +209,23 @@ textarea {
 #box-container{
         width: 300px;
         height: 300px;   
-        background: url('../img/reasons.jpg') no-repeat center center;
+        background: url("../img/reasons.webp") no-repeat center center;
         border-style: solid;
         border-color: #5f31af;
         border-width: 1px;
         border-radius: 6px;
         margin: 0 auto;
     }
-
-/*--------------------------------------media queries*/
+    #box-container-locations{
+        width: 500px;
+        height: 500px;   
+        background: url("../img/banner9.jpg") no-repeat center center;
+        margin: 0 auto;
+    }
+    
+    
+   
+/*------------------------------------------------------------------------------------------------------media queries*/
 
 @media (max-width: 943px) {
     #menu {
@@ -223,7 +238,7 @@ textarea {
     #hero-image{
         height:500px;
         width: 100vw;
-        background: url("../img/bannermobil.jpg") no-repeat center center;
+        background: url("../img/bannermobil.webp") no-repeat center center;
         animation-name: hero-zoom;
         animation-duration: 2s;
         animation-fill-mode: forwards;

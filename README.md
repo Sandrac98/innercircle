@@ -143,3 +143,5 @@ Image by <a href="https://pixabay.com/users/rohatcom68-17923152/?utm_source=link
 
 Image by <a href="https://pixabay.com/users/stocksnap-894430/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2571539">StockSnap</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2571539">Pixabay</a>
 <a href="https://www.freepik.com/free-vector/group-k-pop-boys-illustrated_9644919.htm#query=kpop&position=0&from_view=search&track=sph">Image by pikisuperstar</a> on Freepik
+<a href="https://www.freepik.com/free-vector/group-k-pop-boys-illustration_9644847.htm#page=2&query=kpop&position=4&from_view=search&track=aitest">Image by pikisuperstar</a> on Freepik
+<a href="https://www.freepik.com/free-vector/young-koreans-doing-finger-heart_9469294.htm#query=kpop&position=36&from_view=author">Image by pikisuperstar</a> on Freepik
