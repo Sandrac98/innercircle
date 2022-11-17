@@ -177,8 +177,17 @@ textarea {
     color: #fafafa;
     display: inline-block;
 }
+.form-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  margin-top: 2em;
+    font-size: 2em;
+}
 
 /*----------------------------------------------------------------------------------------------------------image*/
+
+
 #hero-image{
     height:500px;
     width: 100%;
@@ -214,59 +223,83 @@ textarea {
         border-radius: 6px;
         margin: 0 auto;
     }
-    #box-container-locations{
-        width: 500px;
-        height: 500px;   
-        background: url("../img/banner9.jpg") no-repeat center center;
-        margin: 0 auto;
-    }
     
-    
+ .form-image {
+    width: 300px;
+    height: 300px; 
+  
+    background: url("../img/banner9.jpg") no-repeat center center;
+    margin: 0 auto;
+ }   
    
 /*------------------------------------------------------------------------------------------------------media queries*/
 
 @media (max-width: 943px) {
+    
+    #logo {
+    float: left;
+    font-size: 2rem;
+    font-family:'Stick No Bills', sans-serif;
+    text-transform: uppercase;
+    padding-left: 5px;
+} 
     #menu {
-    font-size: 0.8em;
+    font-size: 0.9em;
     display: inline-block;
     font-weight: 800;
-    right: 3em;
+    padding-left: 2em
     }
      
     #hero-image{
-        height:500px;
-        width: 100vw;
+        height:600px;
+        width: 100%;
         background: url("../img/bannermobil.webp") no-repeat center center;
         animation-name: hero-zoom;
         animation-duration: 2s;
         animation-fill-mode: forwards;
     }
     #hero-outer{
-        height:500px;
-        width: 100vw;
-        overflow: hidden;
+        height:400px;
+        width: 100%;
+        padding-top: 3px;
+       
     }
     @keyframes hero-zoom {
         from{
             transform: scale(0);
         }
         to{
-            transform: scale(1);
+            transform: scale(1.5);
         }
     }
 
-  .about-us h2 {
+h3 {
     text-align: center;
-    margin: 1em;
-    padding-top: 1rem;
-    letter-spacing: 2px;
-    font-size: 2rem;
-  }
-  .about-us p{
+    font-family: 'Comfortaa', sans-serif;
+    text-transform: capitalize;
+    font-size: 2em;
+    padding: 10px;
+}
+
+p{
     text-align: center;
-    margin: 0.5em;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2em;
+    padding: 20px;
+}
+
+.heading h2{
+    text-align: center;
+    text-transform: uppercase;
     font-weight: bold;
-  }
+    padding: 10px;
+    font-size: 2em;
+}
+.grid-container {
+    display: list-item;
+    grid: auto / auto auto; 
+    width: 100%;
+}
   .form-section {
     clear: both;
     background: url("../img/banner5.webp");
@@ -329,8 +362,20 @@ textarea {
     color: #fafafa;
     display: inline-block;
    }
+   .form-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 1em;
+    font-size: 2em;
+}
+footer {
+    height: 22px;
+} 
+
   .social-network i{
-        font-size: 35px;
+        font-size: 25px;
         font-weight: bold;
+        padding-top: 1em;
    }
 }
