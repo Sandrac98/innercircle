@@ -3,11 +3,6 @@
     padding: 0;
     margin: 0;
     border: 0;
-    background-color: #ebe6ff;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-
 }
 
 /*---------------------------------------Colours*/
@@ -73,7 +68,7 @@ h3 {
     padding: 50px;
 }
 
-p{
+.heading p{
     text-align: center;
     font-family: 'Comfortaa', sans-serif;
     font-size: 2em;
@@ -81,7 +76,7 @@ p{
 }
 
 footer{
-    height: 150px;
+    height: 250px;
 }
 
 .social-network{
@@ -100,18 +95,24 @@ footer{
     color: #5f31af;
 }
 /*----------------------------------------------------------------------------------------------card content*/
-.heading h2{
+.about-heading {
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-top: 20px auto;
+}
+.card-heading {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 2em;
-    font-size: 3em;
+    margin-top:  auto;
+    font-size: 2em;
 }
 .grid-container {
     display: grid;
     grid: auto / auto auto; 
     width: 100%;
-    padding: 50px;
+    padding: 10px auto;
    
 }
 /*--------------------------------------------------------------------------------------------------form*/
@@ -370,7 +371,9 @@ textarea {
     font-size: 2em;
 }
 footer {
-    height: 22px;
+    height: 136px;
+    margin: auto;
+    padding: 16px;
 } 
 
   .social-network i{
