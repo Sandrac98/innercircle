@@ -140,7 +140,7 @@ footer{
 /*--------------------------------------------------------------------------------------------------form*/
 .form-section {
     clear: both;
-    background: url("../img/banner5.webp");
+    background: url("../img/home-page.webp");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -220,7 +220,7 @@ textarea {
 #hero-image{
     height:500px;
     width: 100%;
-    background: url("../img/banner5.webp") no-repeat center center ;
+    background: url("../home-page.webp") no-repeat center center ;
 
     animation-name: hero-zoom;
     animation-duration: 2s;
@@ -243,9 +243,10 @@ textarea {
 }
 
 #box-container{
+    max-width: 100%;
         width: 300px;
         height: 300px;   
-        background: url("../img/reasons.webp") no-repeat center center;
+        background: url("../img/about-us.webp") no-repeat center center;
         border-style: solid;
         border-color: #5f31af;
         border-width: 1px;
@@ -257,7 +258,7 @@ textarea {
     width: 300px;
     height: 300px; 
   
-    background: url("../img/banner9.jpg") no-repeat center center;
+    background: url("../img/form-submitted.jpg") no-repeat center center;
     margin: 0 auto;
  }   
    
