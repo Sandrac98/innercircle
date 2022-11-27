@@ -28,7 +28,7 @@ footer a {
     color: #5f31af;
 }
 
-/*--------------------------------headings/special padding/ text*/
+/*-------------------------------------------------------------------------------------------headings/special padding/ text*/
 #logo {
     float: left;
     font-size: 3rem;
@@ -36,10 +36,6 @@ footer a {
     text-transform: uppercase;
 }
 
-h2 {
-    text-align: center;
-    font-family: 'Comfortaa', cursive;
-}
 #menu{
     font-size: 2em;;
     list-style-type: none;
@@ -58,14 +54,6 @@ h2 {
 
 #menu a:hover{
     border-bottom: 1px solid #5f31af;
-}
-
-h3 {
-    text-align: center;
-    font-family: 'Comfortaa', sans-serif;
-    text-transform: capitalize;
-    font-size: 2em;
-    padding: 50px;
 }
 
 .heading h2 {
@@ -92,6 +80,7 @@ h3 {
 
 footer{
     height: 160px;
+    width: 100%;
     font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
     font-weight: bold;
@@ -116,12 +105,14 @@ footer{
     padding-left: 15px;
     color: #5f31af;
 }
-/*----------------------------------------------------------------------------------------------card content*/
+/*---------------------------------------------------------------------------------------------------------------card content*/
 .about-heading {
     text-align: center;
     font-size: 3em;
     text-transform: uppercase;
-    margin-top: 20px auto;
+    margin-top: 5vw;
+    font-family: 'Comfortaa', sans-serif;
+    padding: 1vw;
 }
 .card-heading {
     text-align: center;
@@ -129,15 +120,16 @@ footer{
     font-weight: bold;
     margin-top:  auto;
     font-size: 2em;
+    font-family: 'Comfortaa', sans-serif;
 }
 .grid-container {
+    max-width:100%;
     display: grid;
     grid: auto / auto auto; 
     width: 100%;
-    padding: 10px auto;
-   
+    padding: 10px auto;   
 }
-/*--------------------------------------------------------------------------------------------------form*/
+/*----------------------------------------------------------------------------------------------------------------form*/
 .form-section {
     clear: both;
     background: url("../img/home-page.webp");
@@ -206,21 +198,26 @@ textarea {
     display: inline-block;
     font-family: 'Comfortaa', sans-serif; 
 }
-.form-heading {
+.form-submitted-heading {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 2em;
     font-size: 2em;
+    font-family: 'Comfortaa', sans-serif; 
+    padding-top: 5vw;
 }
-
+.form-submitted-heading p {
+    font-size: 0.8em;
+    text-transform: none;
+    padding: 1vw;
+}
 /*----------------------------------------------------------------------------------------------------------image*/
 
 
 #hero-image{
-    height:500px;
+    height: 650px;
     width: 100%;
-    background: url("../home-page.webp") no-repeat center center ;
+    background: url("../img/home-page.webp") no-repeat center center ;
 
     animation-name: hero-zoom;
     animation-duration: 2s;
@@ -228,7 +225,7 @@ textarea {
 }
 
 #hero-outer{
-    height: 504px;
+    height: 650px;
     width: 100%;
     overflow: hidden;
 }
@@ -243,23 +240,16 @@ textarea {
 }
 
 #box-container{
-    max-width: 100%;
-        width: 300px;
-        height: 300px;   
+        max-width: 100%;
+        height: 20vw;   
         background: url("../img/about-us.webp") no-repeat center center;
-        border-style: solid;
-        border-color: #5f31af;
-        border-width: 1px;
-        border-radius: 6px;
         margin: 0 auto;
     }
     
- .form-image {
-    width: 300px;
-    height: 300px; 
-  
+ .form-submitted-image {
+    max-width: 100%;
+    height: 20vw;   
     background: url("../img/form-submitted.jpg") no-repeat center center;
-    margin: 0 auto;
  }   
    
 /*------------------------------------------------------------------------------------------------------media queries*/
