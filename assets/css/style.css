@@ -85,14 +85,17 @@ footer{
     text-transform: uppercase;
     font-weight: bold;
 }
-
-.social-network {
-    text-align: center;
-}
-
-.social-network h2{
+footer h2{
     text-align: center;
     padding-top: 20px;
+}
+
+footer p {
+    text-align: center;
+    text-transform: none;
+}
+.social-network {
+    text-align: center;
 }
 
 .social-network li{
@@ -100,10 +103,10 @@ footer{
 }
 
 .social-network i{
-    font-size: 2.5em;
     margin: 13px auto;
     padding-left: 15px;
     color: #5f31af;
+    font-weight: bold;
 }
 /*---------------------------------------------------------------------------------------------------------------About section*/
 .about-heading h2{
