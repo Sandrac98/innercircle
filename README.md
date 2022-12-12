@@ -1,7 +1,6 @@
 # INNER CIRCLE.
 
-Inner Circle is a safe space for K-pop fans to share their opinions with each other. We believe that everyone should be able to express their opinions, even if they're controversial. That's why we've created [website name] to provide information about the time and place of K-pop meetings, as well as general information about how to participate in the community.
-
+Inner Circle is a safe space for K-pop fans. Whether you're a long-time K-pop fan or just starting to discover this exciting genre, the Inner Circle is a great place to connect with other fans and learn more about the world of K-pop.
 The main objective of Inner Circle is to create a safe space for everyone who joins us.
 
 [View deployed site here](https://sandrac98.github.io/innercircle/)
@@ -13,10 +12,6 @@ The goals of this website are:
 * Provide examples of what can be expected at the events.
 * Encourage visitor to get in contact through the contact form.
 
-The customer goals of this website are:
-* Know what they can expect when join one of the events. 
-* Find official social media channels to keep inform about any announcements.
-
 ## Features 
 ### Existing Features
 
@@ -25,26 +20,20 @@ The customer goals of this website are:
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About Us and Contact Us page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar]()
+![Nav Bar](./nav-bar.png)
 
 - __The landing page image__
 
   - The landing includes a photograph featuring some drawings related with the Kpop Community.
 
-![Landing Page]()
-
-- __Welcome Message__
-
-  This section was created to greet visitors and give informartion about when and why Inner Circle was created.
-
-![Welcome Message] ()
+![Landing Page](./home-page.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Inner Circle. The links will open to a new tab to allow easy navigation for the user. 
   - The footer section includes information on how to keep inform about when and where the events are taking place.
 
-![Footer]()
+![Footer](./footer.png)
 
 - __About Us__
 
