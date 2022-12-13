@@ -1,7 +1,6 @@
 # INNER CIRCLE.
 
-Inner Circle is a safe space for K-pop fans. Whether you're a long-time K-pop fan or just starting to discover this exciting genre, the Inner Circle is a great place to connect with other fans and learn more about the world of K-pop.
-The main objective of Inner Circle is to create a safe space for everyone who joins us.
+At Inner Circle, we strive to provide a safe and welcoming environment for all fans of K-pop. Our community is open to both new and experienced fans of the genre, and we aim to foster a sense of connection and support among our members. Our goal is to create a space where K-pop fans can come together to share their passion for the music, learn from each other, and make lasting connections with others who share their interests. Whether you're an avid K-pop fan or just starting to discover this exciting genre, Inner Circle is the perfect place to connect with other fans and learn more about the world of K-pop.
 
 [View deployed site here](https://sandrac98.github.io/innercircle/)
 
@@ -11,6 +10,21 @@ The goals of this website are:
 * Provide information about what the project is about.
 * Provide examples of what can be expected at the events.
 * Encourage visitor to get in contact through the contact form.
+
+
+# UX
+## Ideal client
+### The ideal client for this business is a fan of Korean Pop Music who:
+
+* Speaks English fluently
+* Has disposable income
+* Currently lives in the United Kingdom, or is planning to visit soon.
+
+### Client stories
+1. As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently. 
+2. As a new visitor to the website, I want to know the story about the organization.
+3. As a new visitor I would like to know what I can expect from the events.
+4. As someone who is interested in join the  events, I want to follow the social media page of Inner Circle so I know when the next event is. 
 
 ## Features 
 ### Existing Features
@@ -26,8 +40,6 @@ The goals of this website are:
 
   - The landing includes a photograph featuring some drawings related with the Kpop Community.
 
-![Landing Page](./home-page.png)
-
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Inner Circle. The links will open to a new tab to allow easy navigation for the user. 
@@ -40,12 +52,9 @@ The goals of this website are:
   - This section explains what the user can expect on every event.
   - On this section the user will find more in depth explanation on what the events are about. 
 
-![About Us]()
-
 - __Contact Us Page__
 
   - This page will allow the user to send any questions they could have about the events, they are required to submit their name, email address and a message.
-![Contact Us]()
 
 ### Features Left to Implement
 

@@ -38,17 +38,15 @@ footer a {
 
 /*-------------------------------------------------------------------------------------------headings/special padding/ text*/
 #logo {
-  float: left;
   font-size: 3rem;
   font-family: 'Stick No Bills', sans-serif;
   text-transform: uppercase;
+  padding: 10px;
 }
 
 #menu {
   font-size: 2em;
-  ;
   list-style-type: none;
-  padding-top: 12px;
 }
 
 #menu li {
@@ -160,16 +158,15 @@ footer p {
   background: url("../img/home-page.webp");
   background-size: cover;
   background-position: center;
-  height: 1000px;
+  padding-top: 50px;
 }
 
 .contact-form {
   margin-top: 150px;
   color: #5f31af;
   background-color: #ebe6ff;
-  max-width: 400px;
-  margin-left: 190px;
-  padding: 30px 40px;
+  opacity: 90%;
+  padding: 15px 20px;
   font-family: 'Comfortaa', sans-serif;
   font-size: 1rem;
 }
