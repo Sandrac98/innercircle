@@ -170,7 +170,7 @@ footer p {
 .contact-form {
   color: #5f31af;
   background-color: #ebe6ff;
-  opacity: 90%;
+  opacity: 96%;
   padding: 50px;
   font-family: 'Comfortaa', sans-serif;
   font-size: 1rem;
@@ -303,11 +303,12 @@ textarea {
 @media (min-width: 280px) and (max-width: 600px) {
   #logo {
     float: left;
-    font-size: 1.6em;
+    font-size: 26px;
+    padding: 15px;
   }
 
   #menu {
-    padding-top: 60px;
+    padding-top: 65px;
   }
 
   #menu li {
@@ -342,25 +343,25 @@ textarea {
   }
 
   .heading h2 {
-    font-size: 1.5em;
-    padding: 15px;
+    font-size: 40px;
+    padding: 15px 26px;
   }
 
   .heading span {
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
 
   .heading p {
     text-align: center;
-    font-size: 1em;
+    font-size: 26px;
     font-weight: bold;
     max-width: 100%;
-    line-height: 40px;
+    line-height: 45px;
     padding: 15px;
   }
 
   footer {
-    height: 180px;
+    height: 235px;
     width: 100%;
     font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
@@ -370,17 +371,20 @@ textarea {
   
   footer h2 {
     text-align: center;
-    padding: 10px;
+    padding: 8px 5px;
+    margin-top: 25px;
   }
   
   footer p {
     text-align: center;
     text-transform: none;
     padding: 3px 10px;
+    line-height: 25px;
+   
   }
 
   .social-network p {
-    font-size: 15px;
+     font-size: 20px;
     margin: 30px;
     text-transform: none;
   }
@@ -392,7 +396,7 @@ textarea {
   .social-network i {
     font-size: 1.5em;
     margin: 8px auto;
-    padding: 15px;
+    padding: 10px;
     color: #5f31af;
   }
 
@@ -426,10 +430,10 @@ textarea {
   .form-section {
     clear: both;
     background: url("../img/mobil-home-page.webp");
-    height: 700px;
+    height: 900px;
     background-size: cover;
     background-position: center;
-    padding: 20px;
+    padding: 10px;
   }
 
   .contact-form {
@@ -451,6 +455,17 @@ textarea {
     text-transform: capitalize;
     font-weight: bold;
   }
+
+  .box {
+    border: 1px solid #482a83;
+    border-radius: 5px;
+    background-color: #ebe6ff;
+    color: #6a028c;
+    padding: 6px;
+    font-size: 1.5em;
+    margin: 18px 1px;
+  }
+  
 
   .form-submitted-image {
     max-width: 100%;
