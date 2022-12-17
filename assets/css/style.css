@@ -8,6 +8,7 @@
 
 body{
     max-width: 2500px;
+    max-height: auto;
     margin-right: auto;
     margin-left: auto;
 }
@@ -313,7 +314,7 @@ textarea {
 
   #menu li {
     margin-right: 25px;
-    font-size: 0.4em;
+    font-size: 13px;
     font-weight: bold;
   }
 
@@ -401,21 +402,21 @@ textarea {
   }
 
   /*--------------About section*/
-  .about-heading h2 {
-    font-size: 1em;
-    margin-top: 35px;
+  .about-heading  h2{
+    font-size: 40px;
+    margin: 45px 3px 10px 3px;
   }
 
   .card h3 {
-    font-size: 1em;
+    font-size: 35px;
     padding: 14px;
     text-transform: uppercase;
   }
 
   .card p {
-    font-size: 1em;
-    line-height: 30px;
-    padding: 23px;
+    font-size: 25px;
+    line-height: 45px;
+    padding: 3px 40px 35px 40px;
     font-weight: bold;
   }
 
@@ -430,17 +431,17 @@ textarea {
   .form-section {
     clear: both;
     background: url("../img/mobil-home-page.webp");
-    height: 900px;
+    height: 1200px;
     background-size: cover;
     background-position: center;
-    padding: 10px;
+    padding: 2px;
   }
 
   .contact-form {
-    margin-top: 100px;
+    margin: 10px;
     color: #5f31af;
     background-color: #ebe6ff;
-    font-size: 1rem;
+    font-size: 10px;
   }
 
   .contact-form h2 {
@@ -461,15 +462,20 @@ textarea {
     border-radius: 5px;
     background-color: #ebe6ff;
     color: #6a028c;
-    padding: 6px;
-    font-size: 1.5em;
-    margin: 18px 1px;
+    padding: 3px;
+    font-size: 22px;
+    margin:  18px 1px;
   }
   
 
   .form-submitted-image {
     max-width: 100%;
     height: 350px;
-    margin: 0 auto;
+    margin: 4px ;
+  }
+
+  .form-submitted-heading {
+    font-size: 15px;
+    margin: 45px 5px 5px 3px;
   }
 }
