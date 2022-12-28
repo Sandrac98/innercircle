@@ -208,14 +208,9 @@ footer p {
 
 /*----------------------------------------------------------------------------------------------------------------form*/
 .form-section {
-  clear: both;
-  background: url("../img/home-page.webp");
-  background-size: cover;
-  background-position: center;
-  padding: 50px;
-  height: 900px;
+ padding-top: 90px;
+ border: #0832a6;
 }
-
 .contact-form {
   color: #5f31af;
   background-color: #ebe6ff;
@@ -445,7 +440,7 @@ textarea {
   }
 
   footer {
-    height: 235px;
+    height: 265px;
     width: 100%;
     font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
@@ -512,30 +507,22 @@ textarea {
   }
 
   /*-----------------------------------------------form*/
-  .form-section {
-    clear: both;
-    background: url("../img/mobil-home-page.webp");
-    height: 1200px;
-    background-size: cover;
-    background-position: center;
-    padding: 2px;
-    padding-top: 90px;
-  }
 
   .contact-form {
     margin: 10px;
-    color: #5f31af;
-    background-color: #ebe6ff;
+    color: #57029c;
+    background-color: #dccafc;
     font-size: 10px;
+    border-radius: 15px;
   }
 
   .contact-form h2 {
-    color: #5f31af;
-    background-color: #ebe6ff;
+    color: #57029c;
+    background-color: #dccafc;
   }
 
   .text-input {
-    color: #5f31af;
+    color: #57029c;
     font-size: 1.2rem;
     width: 100%;
     text-transform: capitalize;
@@ -543,10 +530,10 @@ textarea {
   }
 
   .box {
-    border: 1px solid #482a83;
+    border: 1px solid #57029c;
     border-radius: 5px;
-    background-color: #ebe6ff;
-    color: #6a028c;
+    background-color: #eae0fd;
+    color: #57029c;
     padding: 3px;
     font-size: 18px;
     margin:  18px 1px;
