@@ -8,7 +8,7 @@
 
 body{
     max-width: 2500px;
-    max-height: auto;
+    height: auto;
     margin-right: auto;
     margin-left: auto;
 }
@@ -140,7 +140,7 @@ footer {
 
 footer h2 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 footer p {
@@ -436,22 +436,23 @@ textarea {
     font-weight: bold;
     max-width: 100%;
     line-height: 45px;
-    padding: 15px;
+    margin: 30px;
   }
 
   footer {
-    height: 265px;
+    height: 235px;
     width: 100%;
     font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
     font-weight: bold;
     position: absolute;
+    padding-top: 25px;
   }
   
   footer h2 {
     text-align: center;
     padding: 8px 5px;
-    margin-top: 25px;
+    margin-top: 35px;
   }
   
   footer p {
@@ -488,15 +489,17 @@ textarea {
 
   .card h3 {
     font-size: 35px;
-    padding: 14px;
+    padding: 14px 20px;
     text-transform: uppercase;
   }
 
   .card p {
     font-size: 25px;
     line-height: 45px;
-    padding: 3px 40px 35px 40px;
+    padding: 3px 40px 50px 40px;
     font-weight: bold;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   #box-container {
@@ -549,4 +552,17 @@ textarea {
   .form-submitted-heading {
     font-size: 15px;
     margin: 45px 5px 5px 3px;
+  }
+
+  .images {
+    padding: 20px;
+  }
+  .images img {
+    margin-top: 38px;
+    vertical-align: middle;
+    max-width: 100%;
+    column-count: 1;
+  }
+  .heading {
+    padding-top: 90px;
   }
