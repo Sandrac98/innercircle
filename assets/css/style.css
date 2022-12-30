@@ -7,11 +7,12 @@
 }
 
 body{
-    max-width: 2500px;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
+  max-width: 2500px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 /*---------------------------------------Colours*/
 .logo {
   color: #5f31af;
@@ -125,13 +126,13 @@ nav .icon-burger .line {
   font-size: 1.5em;
   font-weight: bold;
   max-width: 100%;
-  padding: 20px 190px;
+  padding: 20px 19px;
   line-height: 75px;
  
 }
 
 footer {
-  height: 160px;
+  height: 150px;
   width: 100%;
   font-family: 'Comfortaa', cursive;
   text-transform: uppercase;
@@ -140,7 +141,7 @@ footer {
 
 footer h2 {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 15px;
 }
 
 footer p {
@@ -198,12 +199,14 @@ footer p {
   padding: 20px;
 }
 .images img {
-  margin-top: 8px;
   vertical-align: middle;
   max-width: 100%;
 }
 .heading {
   padding-top: 90px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 60px;
+  text-align: center;
 }
 
 /*----------------------------------------------------------------------------------------------------------------form*/
@@ -345,7 +348,7 @@ textarea {
 
 
 /*------------------------------------------------------------------------------------------------------media queries*/
-@media (min-width: 280px) and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 600px) {
   header {
     max-width: 100%;
   }
@@ -436,23 +439,23 @@ textarea {
     font-weight: bold;
     max-width: 100%;
     line-height: 45px;
-    margin: 30px;
+    margin: 10px;
   }
 
   footer {
-    height: 235px;
+    height: 135px;
     width: 100%;
     font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
     font-weight: bold;
     position: absolute;
-    padding-top: 25px;
+    padding-top: 5px;
   }
   
   footer h2 {
     text-align: center;
     padding: 8px 5px;
-    margin-top: 35px;
+    margin-top: 15px;
   }
   
   footer p {
@@ -494,12 +497,10 @@ textarea {
   }
 
   .card p {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 45px;
     padding: 3px 40px 50px 40px;
     font-weight: bold;
-    margin-left: 40px;
-    margin-right: 40px;
   }
 
   #box-container {
@@ -517,6 +518,7 @@ textarea {
     background-color: #dccafc;
     font-size: 10px;
     border-radius: 15px;
+    margin-bottom: 50px;
   }
 
   .contact-form h2 {
@@ -555,14 +557,14 @@ textarea {
   }
 
   .images {
-    padding: 20px;
+   column-count: 2;
+    margin-top: 30px;
   }
   .images img {
-    margin-top: 38px;
+    margin-top: 20px;
     vertical-align: middle;
     max-width: 100%;
-    column-count: 1;
   }
-  .heading {
+  .heading{
     padding-top: 90px;
   }
