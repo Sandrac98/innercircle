@@ -194,19 +194,15 @@ footer p {
   font-weight: bold;
 
 }
-.images {
+.gallery {
+  clear: both;
   column-count: 2;
-  padding: 20px;
-}
-.images img {
-  vertical-align: middle;
-  max-width: 100%;
-}
-.heading {
+  column-gap: 10px;
   padding-top: 90px;
-  font-family: 'Comfortaa', sans-serif;
-  font-size: 60px;
-  text-align: center;
+}
+
+.gallery img {
+  max-width: 100%;
 }
 
 /*----------------------------------------------------------------------------------------------------------------form*/
@@ -555,16 +551,14 @@ textarea {
     font-size: 15px;
     margin: 45px 5px 5px 3px;
   }
-
-  .images {
-   column-count: 2;
-    margin-top: 30px;
-  }
-  .images img {
-    margin-top: 20px;
-    vertical-align: middle;
-    max-width: 100%;
-  }
-  .heading{
+  .gallery {
+    clear: both;
+    column-count: 2;
+    column-gap: 20px;
     padding-top: 90px;
   }
+  
+  .gallery img {
+    max-width: 100%;
+  }
+  

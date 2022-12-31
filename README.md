@@ -33,13 +33,11 @@ The goals of this website are:
   
 ![Nav Bar](./navbar.png)
 The navigation bar is designed to be responsive, which means that it will adjust its layout and appearance to fit different screen sizes and devices. On small devices, the navigation bar will convert into a hamburger menu to allow for easier access. By including this navigation bar, the aim is to make it easy for users to move from page to page on the website and access the different sections without having to use the back button.
-
-![Nav Bar Small Device](./navbar-small-screen.png)
+[Nav Bar Small Device](./navbar-small-screen.png)
 - __Home Page__
 
  - The home page includes an illustration that is related to K-pop and a description of the project. The illustration may be used to help set the theme or tone of the site and give visitors an idea of what they can expect to find on the website. The description of the project may provide more information about the history and purpose of Inner Circle, including when it was founded and what it aims to accomplish. This information can help visitors understand more about the project and its goals, and may help to establish trust and credibility with the audience.
-
-![Home Page](./homepage.png)
+[Home Page](./homepage.png)
 - __The Footer__ 
 
   - The footer section includes links to Inner Circle's social media accounts, which will allow visitors to connect with the organization and stay updated on its activities. By opening these links in a new tab, it is making it easy for users to access the social media accounts without navigating away from the website. The footer section also includes information on how visitors can stay informed about events and other happenings at Inner Circle. This include details about where and when events are taking place. By providing this information in the footer, it is making it easy for visitors to stay connected with Inner Circle and stay up to date on its activities.
@@ -84,11 +82,10 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - HTML
 I utilized the W3 Validator to check each page of the website and found some errors in the navbar. However, this code was sourced from another website and I have included a link to the original source in the code. As a result, I have not attempted to fix the errors highlighted by the validator.
-![navbar-error](./navbarerror.png)
+[navbar-error](./navbarerror.png)
 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
+  - No errors were found when passing through the official [(Jigsaw) validator](./css-validator.png)
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
