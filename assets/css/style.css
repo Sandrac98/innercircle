@@ -226,26 +226,25 @@ footer p {
 
 }
 /*------------------------------------------------------------------------------------------- GALLERY STYLING*/
-.gallery {
-  clear: left;
-  column-count: 1;
-  column-gap: 10px;
-  padding-top: 90px;
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  max-width: 1800px;
 }
 
 .gallery img {
-  width: 500px;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
-
 /*------------------------------------------------------------------------------------------- CONTACT US PAGE STYLING*/
 .form-section {
  padding-top: 90px;
  margin:15px;
- max-width: 100%;
+ max-width: 1800px;
 }
 .contact-form {
-  color: #5f31af;
+  color: #57029c;
   background-color: #ebe6ff;
   opacity: 96%;
   padding: 50px;
@@ -391,7 +390,7 @@ textarea {
       opacity: 0;
     }
     
-  }
+  
  /*-----------------HOME PAGE STYLING*/ 
   #hero-image {
     height: 300px;
@@ -443,7 +442,6 @@ textarea {
     font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
     font-weight: bold;
-    position: absolute;
     padding-top: 5px;
   }
   
@@ -535,7 +533,8 @@ textarea {
     background-color: #eae0fd;
     color: #57029c;
     padding: 3px;
-    font-size: 18px;
+    max-width: 180px;
+    font-size: 20px;
     margin:  18px 1px;
   }
   
@@ -550,16 +549,5 @@ textarea {
     font-size: 15px;
     margin: 45px 5px 5px 3px;
   }
-  /*--------------------------GALLERY PAGE STYLING*/
-  .gallery {
-    column-count: 1;
-    column-gap: 10px;
-    padding-top: 90px;
-    margin: 25px;
-  }
   
-  .gallery img {
-    max-width: 100%;
-    padding-top: 25px;
-  }
-  
+}
