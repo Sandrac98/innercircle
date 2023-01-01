@@ -57,8 +57,7 @@ The navigation bar is designed to be responsive, which means that it will adjust
 
    __Form submitted Page__
    - This page includes an illustration and displays a confirmation message after the form has been successfully submitted. The message lets the user know that their form has been received and that they will be contacted back.
-  
-![Form submitted Page](./form-submitted.png)
+  [Form submitted Page](./form-submitted.png)
 
 ### Features Left to Implement
 
@@ -67,14 +66,43 @@ The navigation bar is designed to be responsive, which means that it will adjust
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The website was tested for responsiveness using the Google Chrome browser and the Chrome Developer Tools to check the different screen sizes. Additionally, the website was also tested on a Samsung Galaxy a52 5G using the Samsung internet browser. No errors were found during the testing process. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+## User Stories Testing.
+1. As a first-time visitor to the site, I want to easily find my way around. 
+- A user can navigate from the landing page from any page on the website, the user can go back to the landing page by using either the navigation menu or the logo, which is a common practice in modern web design.
+2. As a user, I want to know what to expect at an event. 
+- A user can find out more about what to  expect at an event, by navigate to the "About" page.
+3. As a user, I want to see what the events look like.
+- A user can view pictures of previous events, navigating to the "Gallery" page.
+4. As a user, I want to be able to get in touch with the organization. 
+- A user can contact the organization, using the form on the "Contact" page.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+# Manual Testing.
+* To test the navigation on all pages:
+   -Click on the logo to verify that it takes you back to the landing page.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+   -Click on all of the links in the navigation menu to make sure that they bring you to the correct pages.
 
+   -Confirm that the navigation menu changes from a hamburger menu to a regular menu on screens that are 600 pixels wide or wider.
+
+* Landing Page.
+   -Verify that the animationn is not overflowing the page.
+
+* About Page.
+   -Verify that the text is not overflowing and all icons are showing.
+
+* Gallery.
+   - Verify that the images are not causing an horizontal scroll bar to appear by overflowing the container they are in.
+
+* Contact Page.
+  -Verify that all elements set to "required" are working.
+  -Verify that valid email addres is needed.
+  -Verify that "reset" button works and clear every box in the form when pressed.
+  -Verify that "submit" button work and directs users to form submitted page.
+
+* Footer.
+  -Verify that social links open in a new tab.
 
 ### Validator Testing 
 

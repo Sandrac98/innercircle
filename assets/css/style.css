@@ -227,14 +227,15 @@ footer p {
 }
 /*------------------------------------------------------------------------------------------- GALLERY STYLING*/
 .gallery {
-  clear: both;
-  column-count: 2;
+  clear: left;
+  column-count: 1;
   column-gap: 10px;
   padding-top: 90px;
 }
 
 .gallery img {
-  max-width: 100%;
+  width: 500px;
+  height: 300px;
 }
 
 /*------------------------------------------------------------------------------------------- CONTACT US PAGE STYLING*/
@@ -551,8 +552,7 @@ textarea {
   }
   /*--------------------------GALLERY PAGE STYLING*/
   .gallery {
-    clear: both;
-    column-count: 2;
+    column-count: 1;
     column-gap: 10px;
     padding-top: 90px;
     margin: 25px;
