@@ -107,11 +107,16 @@ The website was tested for responsiveness using the Google Chrome browser and th
 ### Validator Testing 
 
 - HTML
-I utilized the W3 Validator to check each page of the website and found some errors in the navbar. However, this code was sourced from another website and I have included a link to the original source in the code. As a result, I have not attempted to fix the errors highlighted by the validator.
+ -I utilized the W3 Validator to check each page of the website and found some errors in the navbar. However, this code was sourced from another website and I have included a link to the original source in the code. As a result, I have not attempted to fix the errors highlighted by the validator.
 [navbar-error](./navbarerror.png)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](./css-validator.png)
+
+-Lighthouse test.
+ - I have conducted lighthouse test on each page of the website, you can find the screenshots here :
+ [lighthouse test](./Screenshot_20221231_124444.png)(./Screenshot_20221231_122348.png)(./Screenshot_20221231_122207.png)
+ 
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
