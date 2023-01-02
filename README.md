@@ -154,3 +154,7 @@ The live link can be found here - https://sandrac98.github.io/innercircle/
 - The image for the About Us page was taken from this open source website:
 <a href="https://www.freepik.com/free-vector/young-korean-people-doing-finger-heart_9644839.htm#query=kpop&position=34&from_view=author">Image by pikisuperstar</a> on Freepik
 - The images for the gallery were taken from this open source website: <a href="https://www.shutterstock.com/">Shutter stock</a>
+
+# Disclaimer 
+
+- Inner Circle website is only for educational purpouses and does not exist as an organization but does exist as a fan group for the k-pop group WINNER.
