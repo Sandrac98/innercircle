@@ -4,7 +4,7 @@ At Inner Circle, we strive to provide a safe and welcoming environment for all f
 
 [View deployed site here](https://sandrac98.github.io/innercircle/)
 
-![Responsice Mockup](./assets/img/responsive-mockup.png)
+![Responsice Mockup](./assets/readme-images/responsive-mockup.png)
 
 The goals of this website are:
 * Provide information about what the project is about.
@@ -30,30 +30,30 @@ The goals of this website are:
 # Features 
 ## Existing Features
   Each page features a responsive navigation bar that is fixed in place and appears on every page of the site. This navigation bar includes links to the different pages of the website, such as the home page, about us page, gallery page, and the contact page.
-![Nav Bar](./assets/img/navbar.png)
+![Nav Bar](./assets/readme-images/navbar.png)
 
 The navigation bar is designed to be responsive, which means that it will adjust its layout and appearance to fit different screen sizes and devices. On small devices, the navigation bar will convert into a hamburger menu to allow for easier access. By including this navigation bar, the aim is to make it easy for users to move from page to page on the website and access the different sections without having to use the back button.
-[Nav Bar Small Device](./assets/img/navbar-small-screen.png)
+[Nav Bar Small Device](./assets/readme-images/navbar-small-screen.png)
 
 - __Home Page__
 
  - The home page includes an illustration that is related to K-pop and a description of the project. The illustration may be used to help set the theme or tone of the site and give visitors an idea of what they can expect to find on the website. The description of the project may provide more information about the history and purpose of Inner Circle, including when it was founded and what it aims to accomplish. This information can help visitors understand more about the project and its goals, and may help to establish trust and credibility with the audience.
-![Home Page](./assets/img/homepage.png)
+![Home Page](./assets/readme-images/homepage.png)
 
 - __The Footer__ 
 
   - The footer section includes links to Inner Circle's social media accounts, which will allow visitors to connect with the organization and stay updated on its activities. By opening these links in a new tab, it is making it easier for users to access the social media accounts without navigating away from the website. The footer section also includes information on how visitors can stay informed about events and other happenings at Inner Circle. This include details about where and when events are taking place. By providing this information in the footer, it is making it easy for visitors to stay connected with Inner Circle and stay up to date on its activities.
 
-![Footer](./assets/img/footer.png)
+![Footer](./assets/readme-images/footer.png)
 
 - __About Us__
 
   - Provides more information about what visitors can expect at Inner Circle events. visitors get a better sense of what to expect at Inner Circle events and what they can look forward to. This can help build excitement and interest in the events, and may encourage visitors to attend or get more involved with Inner Circle. It also includes an illustration that features characters making the "Korean heart fingers" gesture. This gesture, also known as the "finger heart," is a common way for people in South Korea to show love or affection. It is made by placing the tip of the index finger against the tip of the thumb, forming a heart shape with the other fingers. The use of this illustration on the about us page of the website is intended to give visitors a sense of the theme or tone of the site, and to signal that Inner Circle is a community for fans of K-pop and Korean culture. It may also be used to convey a sense of warmth and positivity, and to help visitors feel welcome and included in the community.
-![About Us Page](./assets/img/about-us.png)
+![About Us Page](./assets/readme-images/about-us.png)
 
   - __Gallery__
 
-  - The gallery page includes a collection of photos that showcase various aspects of K-pop culture, including merchandise, events, and people enjoying themselves. By displaying these photos, visitors get a visual representation of what Inner Circle is all about and what they can expect to find in the community. The inclusion of photos of merchandise, events, and people dancing and looking at food can help to give visitors a sense of the variety of experiences and activities that are available at Inner Circle, and may help to pique their interest in getting more involved with the community. Additionally, by showcasing these photos, gives visitors a sense of the energy and excitement that are present at Inner Circle events, which could help to further build interest and enthusiasm in the community. ![Gallery](./assets/img/gallery-screenshot.png)
+  - The gallery page includes a collection of photos that showcase various aspects of K-pop culture, including merchandise, events, and people enjoying themselves. By displaying these photos, visitors get a visual representation of what Inner Circle is all about and what they can expect to find in the community. The inclusion of photos of merchandise, events, and people dancing and looking at food can help to give visitors a sense of the variety of experiences and activities that are available at Inner Circle, and may help to pique their interest in getting more involved with the community. Additionally, by showcasing these photos, gives visitors a sense of the energy and excitement that are present at Inner Circle events, which could help to further build interest and enthusiasm in the community. ![Gallery](./assets/readme-images/gallery-screenshot.png)
 
 - __Contact Us Page__
 
@@ -61,7 +61,7 @@ The navigation bar is designed to be responsive, which means that it will adjust
 
    __Form submitted Page__
    - This page includes an illustration and displays a confirmation message after the form has been successfully submitted. The message lets the user know that their form has been received and that they will be contacted back.
-  [Form submitted Page](./form-submitted.png)
+  [Form submitted Page](./assets/readme-images/form-submitted.png)
 
 ## Features Left to Implement
 
@@ -119,14 +119,14 @@ The website was tested for responsiveness using the Google Chrome browser and th
  - Code was checked using https://validator.w3.org/, error showed in the results is explained at the unfixed bug section.
 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](./css-validator.png)
+  - No errors were found when passing through the official [(Jigsaw) validator](./assets/readme-images/css-validator.png)
 
 -Lighthouse test.
  - I have conducted lighthouse test on each page of the website, you can find the screenshots here :
- [lighthouse test Home Page](./home-page-lighthouse-test.png)
- [lighthouse test About Page](./about-us-page-lighthouse-test.png)
- [lighthouse test Gallery](./gallery-lighthouse-test.png)
- [lighthouse test Contact Page](./contact-page-lighthouse-test.png)
+ [lighthouse test Home Page](./assets/readme-images/home-page-lighthouse-test.png)
+ [lighthouse test About Page](./assets/readme-images/about-us-page-lighthouse-test.png)
+ [lighthouse test Gallery](./assets/readme-images/gallery-lighthouse-test.png)
+ [lighthouse test Contact Page](./assets/readme-images/contact-page-lighthouse-test.png)
 
 # Unfixed Bugs
  - I used the W3 Validator to check each page of the website and found some errors in the navbar. However, this code was sourced from another website and I have included a link to the original source in the code. As a result, I have not attempted to fix the errors highlighted by the validator.

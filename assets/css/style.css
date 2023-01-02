@@ -103,7 +103,7 @@ nav .icon-burger .line {
 #hero-image {
   height: 450px;
   width: 100%;
-  background: url("../img/home-page.webp") no-repeat center center;
+  background: url("../img/home-page-illustration.jpg") no-repeat center center;
   animation-name: hero-zoom;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -122,7 +122,7 @@ nav .icon-burger .line {
   }
 
   to {
-    transform: scale(0.6);
+    transform: scale(0.7);
   }
 }
 
@@ -203,9 +203,9 @@ footer p {
   text-align: center;
   font-size: 3em;
   text-transform: uppercase;
-  margin: 90px;
+  margin: 30px;
   font-family: 'Comfortaa', sans-serif;
-  padding-top: 20px;
+  padding-top: 90px;
 }
 
 .card h3 {
@@ -239,40 +239,39 @@ footer p {
 }
 /*------------------------------------------------------------------------------------------- CONTACT US PAGE STYLING*/
 .form-section {
- padding-top: 90px;
- margin:15px;
- max-width: 1800px;
+ margin:155px;
+ max-width: 1300px;
 }
 .contact-form {
-  color: #57029c;
-  background-color: #ebe6ff;
-  opacity: 96%;
+  color: #3c026b;
+  background-color: #baadef;
   padding: 50px;
   font-family: 'Comfortaa', sans-serif;
   font-size: 1rem;
 }
 
 .contact-form h2 {
-  color: #5f31af;
-  background-color: #ebe6ff;
-  font-size: 3em;
+  color: #3c026b;
+  background-color: #baadef;
+  font-size: 30px;
 }
 
 .text-input {
-  color: #5f31af;
-  font-size: 2rem;
+  color: #3c026b;
+  font-size: 25px;
   text-transform: capitalize;
   font-weight: bold;
   margin-bottom: 3em;
 }
 
 .box {
-  border: 1px solid #482a83;
+  border: 1px solid #3c026b;
   border-radius: 5px;
-  background-color: #ebe6ff;
-  color: #6a028c;
+  background-color: #baadef;
+  color: #3c026b;
   padding: 6px;
-  font-size: 1.5em;
+  max-width: 250px;
+  font-size: 25px;
   margin: 18px 1px;
 }
 
@@ -281,10 +280,10 @@ textarea {
   height: 150px;
   padding: 20px;
   box-sizing: border-box;
-  border: 1px solid #482a83;
+  border: 1px solid #3c026b;
   border-radius: 5px;
-  background-color: #ebe6ff;
-  color: #6a028c;
+  background-color: #baadef;
+  color: #3c026b;
   font-family: 'Comfortaa', sans-serif;
   font-weight: bold;
   margin: 18px 1px;
@@ -294,11 +293,11 @@ textarea {
 .reset-button,
 .submit-button {
   margin-top: 9px;
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 5px 5px;
   text-align: center;
   font-size: 20px;
-  background-color: #5f31af;
+  background-color: #3c026b;
   color: #fafafa;
   display: inline-block;
   font-family: 'Comfortaa', sans-serif;
@@ -504,11 +503,15 @@ textarea {
   }
 
   /*-----------------------------------------------CONTACT US PAGE STYLING*/
+  .form-section {
+    padding-top: 90px;
+    margin:7px;
+   }
  
   .contact-form {
     margin: 10px;
     color: #57029c;
-    background-color: #dccafc;
+    background-color: #baadef;
     font-size: 10px;
     border-radius: 15px;
     margin-bottom: 50px;
@@ -516,7 +519,7 @@ textarea {
 
   .contact-form h2 {
     color: #57029c;
-    background-color: #dccafc;
+    background-color: #baadef;
   }
 
   .text-input {
@@ -528,9 +531,9 @@ textarea {
   }
 
   .box {
-    border: 1px solid #57029c;
+    border: 2px solid #57029c;
     border-radius: 5px;
-    background-color: #eae0fd;
+    background-color: #baadef;
     color: #57029c;
     padding: 3px;
     max-width: 180px;
@@ -549,11 +552,11 @@ textarea {
     font-size: 15px;
     margin: 45px 5px 5px 3px;
   }
-  
+  /*----------------------GALLERY PAGE STYLING */
   .gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    width: 1305px;
+    max-width: 600px;
     padding-top: 90px;
     column-count: 1;
   }
