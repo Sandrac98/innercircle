@@ -157,4 +157,4 @@ The live link can be found here - https://sandrac98.github.io/innercircle/
 
 # Disclaimer 
 
-- Inner Circle website is only for educational purpouses and does not exist as an organization but does exist as a fan group for the k-pop group WINNER.
+- Inner Circle website is only for educational purposes and does not exist as an organization but does exist as a fan group for the k-pop group WINNER.
