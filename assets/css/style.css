@@ -569,7 +569,7 @@ textarea {
     height: auto;
   }
 }
-
+/* -----------------------------------MEDIA QUERY FOR SAMSUNG FOLD */
 @media (min-width: 200px) and (max-width: 299px) {
   nav .logo {
     float: none;

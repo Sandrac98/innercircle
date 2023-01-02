@@ -145,8 +145,6 @@ The live link can be found here - https://sandrac98.github.io/innercircle/
 
 # Credits 
 ## Content 
-
-- The text for the for the text in this website was created using https://chat.openai.com/chat
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - I would like to give credit to the website https://codepen.io/MinzCode/pen/bGexzXw for providing the navbar code that I used on my website. I modified the code to match the color palette of my website.
 
@@ -155,4 +153,4 @@ The live link can be found here - https://sandrac98.github.io/innercircle/
 <a href="https://www.freepik.com/free-vector/group-k-pop-boys-illustrated_9644919.htm#query=kpop&position=0&from_view=search&track=sph">Image by pikisuperstar</a> on Freepik
 - The image for the About Us page was taken from this open source website:
 <a href="https://www.freepik.com/free-vector/young-korean-people-doing-finger-heart_9644839.htm#query=kpop&position=34&from_view=author">Image by pikisuperstar</a> on Freepik
-- The images for the gallery were taken from this open source website: <a href="https://www.shutterstock.com/"></a>
+- The images for the gallery were taken from this open source website: <a href="https://www.shutterstock.com/">Shutter stock</a>
