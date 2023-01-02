@@ -193,7 +193,7 @@ footer p {
 /*------------------------------------------------------------------------------------------- ABOUT US PAGE STYLING*/
 #box-container {
   max-width: 100%;
-  height: 20vw;
+  height: 350px;
   background: url("../img/about-us.webp") no-repeat center center;
   margin: 0 auto;
 }
@@ -448,6 +448,7 @@ textarea {
     text-align: center;
     padding: 8px 5px;
     margin-top: 15px;
+    font-size: 20px;
   }
   
   footer p {
@@ -455,6 +456,8 @@ textarea {
     text-transform: none;
     padding: 3px 10px;
     line-height: 25px;
+    font-size: 15px;
+    font-weight: bold;
    
   }
 
@@ -531,7 +534,7 @@ textarea {
   }
 
   .box {
-    border: 2px solid #57029c;
+    border: 1px solid #3c026b;
     border-radius: 5px;
     background-color: #baadef;
     color: #57029c;
@@ -565,4 +568,252 @@ textarea {
     width: 100%;
     height: auto;
   }
+}
+
+@media (min-width: 200px) and (max-width: 299px) {
+  nav .logo {
+    float: none;
+    width: 150px;
+    justify-content: center;
+  }
+  nav .links {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #f0cbffee;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: all .5s ease-in-out;
+  }
+  nav .links a {
+    font-size: 28px;
+    color: #6a028c;
+    text-transform: uppercase;
+  }
+ 
+  nav :checked ~ .links {
+    bottom: 0;
+  }
+  nav .icon-burger {
+    display: block;
+  }
+  nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+  }
+   
+ /*-----------------HOME PAGE STYLING*/ 
+ #hero-image {
+  height: 300px;
+  width: 100%;
+  background: url("../img/mobil-home-page.webp") no-repeat center center;
+  animation-name: hero-zoom;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  padding-top: 90px;
+}
+
+#hero-outer {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@keyframes hero-zoom {
+  from {
+    transform: scale(0.5);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.heading h2 {
+  font-size: 40px;
+  padding: 15px 26px;
+}
+
+.heading span {
+  font-size: 0.5em;
+}
+
+.heading p {
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 45px;
+  padding: 1px;
+}
+/*--------------FOOTER STYLING*/
+footer {
+  height: 135px;
+  width: 100%;
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+footer h2 {
+  text-align: center;
+  padding: 8px 5px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+footer p {
+  text-align: center;
+  text-transform: none;
+  padding: 3px 10px;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: bold;
+ 
+}
+
+.social-network p {
+   font-size: 20px;
+  margin: 30px;
+  text-transform: none;
+}
+
+.social-network li {
+  display: inline;
+}
+
+.social-network i {
+  font-size: 1.5em;
+  margin: 8px auto;
+  padding: 10px;
+  color: #5f31af;
+}
+
+/*------------------ABOUT US PAGE STYLING*/
+.about-heading  h2{
+  font-size: 40px;
+  margin: 45px 3px 10px 3px;
+  padding-top: 90px;
+}
+
+.card h3 {
+  font-size: 35px;
+  padding: 14px 20px;
+  text-transform: uppercase;
+}
+
+.card p {
+  font-size: 30px;
+  line-height: 45px;
+  padding: 3px 20px 50px 20px;
+  font-weight: bold;
+}
+
+#box-container {
+  max-width: 100%;
+  height: 550px;
+  background: url("../img/about-us.webp") no-repeat center center;
+  margin: 0 auto;
+}
+
+/*-----------------------------------------------CONTACT US PAGE STYLING*/
+.form-section {
+  padding-top: 90px;
+  margin:2px;
+ }
+
+.contact-form {
+  margin: 5px;
+  color: #57029c;
+  background-color: #baadef;
+  font-size: 10px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  padding: 25px;
+}
+
+.contact-form h2 {
+  color: #57029c;
+  background-color: #baadef;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.text-input {
+  color: #57029c;
+  font-size: 1.2rem;
+  width: 100%;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.box {
+  border: 1px solid #3c026b;
+  border-radius: 5px;
+  background-color: #baadef;
+  color: #57029c;
+  padding: 3px;
+  max-width: 180px;
+  font-size: 20px;
+  margin:  18px 1px;
+}
+
+/*-------------------------FORM SUBMITTED PAGE STYLING*/
+.form-submitted-image {
+  background: url("../img/form-submitted.jpg") no-repeat center center;
+  height: 250px;
+  width:100%;
+
+}
+.form-submitted-heading h2 {
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Comfortaa', sans-serif;
+  line-height: 40px;
+  padding-top: 100px;
+  font-weight: bold;
+}
+
+.form-submitted-heading h3 {
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Comfortaa', sans-serif;
+  padding-top: 45px;
+}
+.form-submitted-heading p {
+  font-size: 15px;
+  text-transform: none;
+  text-align: center;
+  font-family: 'Comfortaa', sans-serif;
+  padding: 15px;
+  font-weight: bold;
+}
+/*----------------------GALLERY PAGE STYLING */
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  max-width: 600px;
+  padding-top: 90px;
+  column-count: 1;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
 }
